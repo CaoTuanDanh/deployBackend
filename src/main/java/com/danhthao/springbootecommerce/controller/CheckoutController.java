@@ -6,7 +6,7 @@ import com.danhthao.springbootecommerce.dto.PurchaseResponse;
 import com.danhthao.springbootecommerce.service.CheckoutService;
 import org.springframework.web.bind.annotation.*;
 
-@CrossOrigin("http://localhost:4200")
+@CrossOrigin("https://guileless-pithivier-f8e66a.netlify.app")
 @RestController
 @RequestMapping("/api/checkout")
 public class CheckoutController {
